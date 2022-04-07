@@ -1,6 +1,9 @@
 @fruits.map do |fruit|
   {
     id: fruit.id,
-    url: fruit_url(fruit, format: :json)
+    name: fruit.name,
+    color: fruit.color,
+    description: fruit.description,
+    image: fruit.image
   }
 end
