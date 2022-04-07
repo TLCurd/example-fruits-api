@@ -1,5 +1,9 @@
 {
   id: @fruit.id,
+  name: @fruit.name,
+  color: @fruit.color,
+  description: @fruit.description,
+  image: @fruit.image,
   created_at: @fruit.created_at,
   updated_at: @fruit.updated_at
 }

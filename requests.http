@@ -1,1 +1,15 @@
 GET http://localhost:3000/fruits.json
+
+###
+POST http://localhost:3000/fruits.json
+Content-Type: application/json
+
+{
+  "name" : "Apple",
+  "color" : "red/green",
+  "description" : "Most apples are a little sweet and a little tart, but neither characteristic overpowers the other. Some types of these apples will taste mild, while others will have stand-out flavor. As usually, that depends on the weather and harvest conditions.",
+  "image" : "https://www.osfhealthcare.org/blog/wp-content/uploads/2019/08/apples-OG.jpg"
+}
+
+###
+GET http://localhost:3000/fruits/1.json
