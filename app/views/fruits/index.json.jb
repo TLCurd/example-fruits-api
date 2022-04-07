@@ -1,0 +1,6 @@
+@fruits.map do |fruit|
+  {
+    id: fruit.id,
+    url: fruit_url(fruit, format: :json)
+  }
+end
